@@ -126,7 +126,7 @@ export function PhilosophySection() {
               {idx === 0 ? (
                 <h2
                   style={{
-                    fontFamily: "'Dharma Gothic E', 'League Gothic', 'Antonio', sans-serif",
+                    fontFamily: "var(--font-dharma), 'Dharma Gothic E', sans-serif",
                     fontSize: '48px',
                     fontStyle: 'italic',
                     textTransform: 'uppercase',
@@ -275,7 +275,7 @@ export function PhilosophySection() {
           .seq-txt {
             position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%);
             width: max-content; white-space: nowrap;
-            font-family: 'Dharma Gothic E', 'League Gothic', 'Antonio', sans-serif; font-size: 72px; font-style: italic; text-transform: uppercase;
+            font-family: var(--font-dharma), 'Dharma Gothic E', sans-serif; font-size: 72px; font-style: italic; text-transform: uppercase;
             color: #000; text-align: center; z-index: 10; opacity: 0; 
           }
           .txt-1 { opacity: 1; white-space: normal; }

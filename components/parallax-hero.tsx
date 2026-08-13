@@ -95,7 +95,7 @@ export function ParallaxHero() {
         <h2
           className="font-dharma"
           style={{
-            fontFamily: "'Dharma Gothic E', 'League Gothic', sans-serif",
+            fontFamily: "var(--font-dharma), 'Dharma Gothic E', sans-serif",
             fontSize: 'clamp(36px, 5vw, 72px)',
             fontStyle: 'italic',
             textTransform: 'uppercase',

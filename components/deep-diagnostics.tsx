@@ -271,7 +271,7 @@ export function DeepDiagnostics() {
           <h2
             className="font-dharma"
             style={{
-              fontFamily: "'Dharma Gothic E', 'League Gothic', sans-serif",
+              fontFamily: "var(--font-dharma), 'Dharma Gothic E', sans-serif",
               fontSize: '52px',
               fontStyle: 'italic',
               textTransform: 'uppercase',

@@ -1,8 +1,109 @@
-@import url('https://fonts.googleapis.com/css2?family=League+Gothic:ital@1&family=Big+Shoulders+Display:ital,wght@1,400;1,700&family=Antonio:ital,wght@1,400;1,700&family=Barlow+Condensed:ital,wght@1,400;1,700&display=swap');
 @import "tailwindcss";
 
+/* ───────────────────────────────────────────────
+   Dharma Gothic E Local Webfont Declarations
+   ─────────────────────────────────────────────── */
+@font-face {
+  font-family: 'Dharma Gothic E';
+  src: url('/DharmaGothicE_ExLight_R.woff') format('woff'),
+       url('/DharmaGothicE_ExLight_R.otf') format('opentype');
+  font-weight: 200;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Dharma Gothic E';
+  src: url('/DharmaGothicE_ExLight_I.woff') format('woff'),
+       url('/DharmaGothicE_ExLight_I.otf') format('opentype');
+  font-weight: 200;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Dharma Gothic E';
+  src: url('/DharmaGothicE_Light_R.woff') format('woff'),
+       url('/DharmaGothicE_Light_R.otf') format('opentype');
+  font-weight: 300;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Dharma Gothic E';
+  src: url('/DharmaGothicE_Light_I.woff') format('woff'),
+       url('/DharmaGothicE_Light_I.otf') format('opentype');
+  font-weight: 300;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Dharma Gothic E';
+  src: url('/DharmaGothicE_Regular_R.woff') format('woff'),
+       url('/DharmaGothicE_Regular_R.otf') format('opentype');
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Dharma Gothic E';
+  src: url('/DharmaGothicE_Regular_I.woff') format('woff'),
+       url('/DharmaGothicE_Regular_I.otf') format('opentype');
+  font-weight: 400;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Dharma Gothic E';
+  src: url('/DharmaGothicE_Bold_R.woff') format('woff'),
+       url('/DharmaGothicE_Bold_R.otf') format('opentype');
+  font-weight: 700;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Dharma Gothic E';
+  src: url('/DharmaGothicE_ExBold_R.woff') format('woff'),
+       url('/DharmaGothicE_ExBold_R.otf') format('opentype');
+  font-weight: 800;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Dharma Gothic E';
+  src: url('/DharmaGothicE_ExBold_I.woff') format('woff'),
+       url('/DharmaGothicE_ExBold_I.otf') format('opentype');
+  font-weight: 800;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Dharma Gothic E';
+  src: url('/DharmaGothicE_Heavy_R.woff') format('woff'),
+       url('/DharmaGothicE_Heavy_R.otf') format('opentype');
+  font-weight: 900;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Dharma Gothic E';
+  src: url('/DharmaGothicE_Heavy_I.woff') format('woff'),
+       url('/DharmaGothicE_Heavy_I.otf') format('opentype');
+  font-weight: 900;
+  font-style: italic;
+  font-display: swap;
+}
+
 .font-dharma {
-  font-family: 'Dharma Gothic E', 'DharmaGothicE-RegularItalic', 'Dharma Gothic E Regular Italic', 'DharmaGothicE', 'League Gothic', 'Big Shoulders Display', 'Antonio', sans-serif;
+  font-family: var(--font-dharma), 'Dharma Gothic E', sans-serif;
   font-weight: 400;
   font-style: italic;
   font-size: 56px;
@@ -13,7 +114,7 @@
 }
 
 .font-dharma-32 {
-  font-family: 'Dharma Gothic E', 'DharmaGothicE-RegularItalic', 'Dharma Gothic E Regular Italic', 'DharmaGothicE', 'League Gothic', 'Big Shoulders Display', 'Antonio', sans-serif;
+  font-family: var(--font-dharma), 'Dharma Gothic E', sans-serif;
   font-weight: 400;
   font-style: italic;
   font-size: 32px;
@@ -24,7 +125,7 @@
 }
 
 .font-dharma-48 {
-  font-family: 'Dharma Gothic E', 'DharmaGothicE-RegularItalic', 'Dharma Gothic E Regular Italic', 'DharmaGothicE', 'League Gothic', 'Big Shoulders Display', 'Antonio', sans-serif;
+  font-family: var(--font-dharma), 'Dharma Gothic E', sans-serif;
   font-weight: 400;
   font-style: italic;
   font-size: 48px;
@@ -35,7 +136,7 @@
 }
 
 .font-dharma-72 {
-  font-family: 'Dharma Gothic E', 'DharmaGothicE-RegularItalic', 'Dharma Gothic E Regular Italic', 'DharmaGothicE', 'League Gothic', 'Big Shoulders Display', 'Antonio', sans-serif;
+  font-family: var(--font-dharma), 'Dharma Gothic E', sans-serif;
   font-weight: 400;
   font-style: italic;
   font-size: clamp(2.5rem, 5.5vw, 72px);
